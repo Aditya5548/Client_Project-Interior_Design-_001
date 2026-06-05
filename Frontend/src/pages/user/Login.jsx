@@ -19,7 +19,7 @@ const Login = () => {
     setError("");
     try {
       setLoading(true);
-      const { data } = await axios.post("http://localhost:4000/api/auth/login", formData);
+      const { data } = await axios.post("https://client-project-interior-design-001.onrender.com/api/auth/login", formData);
       localStorage.setItem("token", data.token);
       navigate("/");
     } catch (err) {

@@ -13,7 +13,7 @@ import {
 // Local asset for fallback
 import DefaultServiceImage from "../../assets/Default_service_image2.jpg";
 
-const serverUrl = "http://localhost:4000";
+const serverUrl = "https://client-project-interior-design-001.onrender.com";
 
 const ServiceDetails = () => {
   const { id } = useParams();

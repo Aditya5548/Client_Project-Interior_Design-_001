@@ -12,7 +12,7 @@ const Services = () => {
 
   const fetchServices = async () => {
     try {
-      const { data } = await axios.get("http://localhost:4000/api/services");
+      const { data } = await axios.get("https://client-project-interior-design-001.onrender.com/api/services");
 
       setServices(data.services || data);
     } catch (error) {

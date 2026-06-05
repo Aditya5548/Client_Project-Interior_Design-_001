@@ -19,8 +19,8 @@ const FullServices = () => {
   const fetchData = async () => {
     try {
       const [servicesRes, categoriesRes] = await Promise.all([
-        axios.get("http://localhost:4000/api/services"),
-        axios.get("http://localhost:4000/api/categories"),
+        axios.get("https://client-project-interior-design-001.onrender.com/api/services"),
+        axios.get("https://client-project-interior-design-001.onrender.com/api/categories"),
       ]);
       console.log(servicesRes);
       setServices(

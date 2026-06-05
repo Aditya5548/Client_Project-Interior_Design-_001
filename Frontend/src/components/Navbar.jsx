@@ -12,7 +12,7 @@ import {
   Phone,
 } from "lucide-react";
 
-const API_URL = "http://localhost:4000/api/auth";
+const API_URL = "https://client-project-interior-design-001.onrender.com/api/auth";
 
 const Navbar = () => {
   const navigate = useNavigate();
