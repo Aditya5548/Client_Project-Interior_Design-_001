@@ -207,7 +207,7 @@ const FullServices = () => {
                 className="bg-white rounded-3xl overflow-hidden shadow hover:shadow-xl transition duration-300"
               >
                 <img
-                  src={service.image || defaultServiceImage}
+                  src={defaultServiceImage}
                   alt={service.title}
                   className="h-60 w-full object-cover"
                   onError={(e) => {

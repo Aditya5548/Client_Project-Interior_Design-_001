@@ -106,7 +106,7 @@ const Services = () => {
                 className="group bg-white rounded-lg overflow-hidden border border-slate-100 hover:shadow-xl hover:border-slate-200 transition-all duration-300 transform hover:-translate-y-0.5"
               >
                 <img
-                  src={service.image || defaultServiceImage}
+                  src={defaultServiceImage}
                   alt={service.title}
                   className="h-48 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                   onError={(e) => {
